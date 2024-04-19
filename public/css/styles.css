@@ -1,0 +1,35 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+}
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.btn {
+  padding: 5px 10px;
+  box-shadow: 0 0 2px 0 black;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+
+  color: rgb(53, 53, 53);
+}
+
+a.btn:hover {
+  box-shadow: 0 0 3px 0 black;
+  text-decoration: none;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  margin-top: 15px;
+  padding: 15px;
+  gap: 15px;
+  border-top: 1px solid grey;
+}
